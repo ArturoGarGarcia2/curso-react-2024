@@ -1,9 +1,11 @@
 // ----- IMPORTS -----
 import './App.css';
-import Contador from './components/useState/Contador';
-import ContadorDoble from './components/useState/ContadorDoble';
-import ContadorDobleBest from './components/useState/ContadorDobleBest';
-import DarkLightMode from './components/useState/DarkLightMode';
+// import Contador from './components/UseState/Contador';
+// import ContadorDoble from './components/UseState/ContadorDoble';
+// import ContadorDobleBest from './components/UseState/ContadorDobleBest';
+// import DarkLightMode from './components/UseState/DarkLightMode';
+import RegistrarFormulario from './components/UseState/RegistrarFormulario';
+import ToDoListTailwind from './components/UseState/ToDoListTailwind';
 
 // ----- DECLARACIÓN DE VARIABLES GLOBALES -----
 
@@ -40,7 +42,14 @@ const App = () => {
 	// 	</>
 	// )
 	return (
-		<DarkLightMode />
+	<>
+		<h1>Ejemplos básico de React</h1>
+		<hr/>
+		<ToDoListTailwind />
+		<hr/>
+		<RegistrarFormulario />
+		<hr/>
+	</>
 	);
 }
 
